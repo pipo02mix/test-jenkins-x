@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 GO := GO15VENDOREXPERIMENT=1 go
-NAME := REPLACE_ME_APP_NAME
+NAME := test-jenkins-x
 OS := $(shell uname)
 MAIN_GO := hello.go
 ROOT_PACKAGE := $(GIT_PROVIDER)/$(ORG)/$(NAME)
